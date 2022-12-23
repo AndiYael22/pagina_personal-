@@ -87,7 +87,7 @@ nav .indicador {
 
     border-radius: 50%;
   
-    margin-top:200px ;
+    margin-top:300px ;
 }
 h1{position: absolute;
     color: white;
@@ -210,12 +210,13 @@ p{
 .prin{
     position: absolute;
     margin-top: 230px;
-
     margin-left: 220px;
 }
 .cor1 {position: absolute;
 margin-top:  230px;
 margin-left: -580px;}
-.cor2 {position: absolute;
+.cor2 {
+    position: absolute;
     margin-top:  230px;
-    margin-left: 620px;}
+    margin-left: 620px;
+}

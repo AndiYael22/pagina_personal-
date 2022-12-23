@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #06142a;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+nav {
+    Position: absolute;
+z-index: 9999;
+	background: rgb(23, 38, 90);
+	height: 80px;
+    width: 100%;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	display: flex;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+}
+
+nav a {
+	flex: 1;
+	height: 100%;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	transition: .2s ease-in-out all;
+	font-weight: 500;
+}
+
+nav a:hover {
+	background: #233a64;
+}
+
+nav .indicador {
+	width: 0px;
+	height: 7px;
+	background: #ffffff;
+	position: absolute;
+	bottom: 0;
+	transition: .3s ease-out all;
+}
+
+.seccion {
+   
+    margin-top: 0px;
+	width: 100%;
+    height: 680px;
+   
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+@media screen and (max-width: 800px) {
+	nav a {
+		font-size: 14px;
+		padding: 5px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	nav a {
+		font-size: 12px;
+	}
+}
+
+.circular{
+    position: absolute;
+
+    border-radius: 50%;
+  
+    margin-top:200px ;
+}
+h1{position: absolute;
+    color: white;
+    margin-top: -400px;  
+}
+p{
+    position: absolute;
+    color: white;
+    width: 800px;
+    margin-top: -100px;
+}
+.s1{
+    position: absolute;
+    color: white;
+}
+.git{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -730px;
+}
+.lin{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -480px;
+}
+.face{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -220px;
+
+}
+.ins{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 30px;
+
+}
+.twi{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 530px;
+
+}
+.wha{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 280px;
+
+}
+.c{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: -730px;
+
+
+}
+
+.jav{ position: absolute;
+    margin-top: 75px;
+    margin-left: -480px;
+
+}
+
+.py{ position: absolute;
+    margin-top: 75px;
+    margin-left: -220px;
+
+}
+.and{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 30px;
+
+}
+.html{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 280px;
+
+}
+.css{   position: absolute;
+    margin-top: 75px;
+    margin-left: 530px;
+
+}
+
+.s2{
+    position: absolute;
+    color: white;
+}
+.under{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -580px;
+}
+.devil{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -180px;
+
+}
+.crash{
+    position: absolute;
+    margin-top: -30px;
+
+    margin-left: 220px;
+}
+.soul{
+    position: absolute;
+    margin-top: -30px;
+
+    margin-left: 620px;
+}
+.assa{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: -180px;
+   
+}
+.prin{
+    position: absolute;
+    margin-top: 230px;
+
+    margin-left: 220px;
+}
+.cor1 {position: absolute;
+margin-top:  230px;
+margin-left: -580px;}
+.cor2 {position: absolute;
+    margin-top:  230px;
+    margin-left: 620px;}
